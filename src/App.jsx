@@ -1,7 +1,8 @@
 import Navbar from './comp/Navbar'
 import Hero from './comp/Hero'
 import TrustedBy from './comp/TrustedBy'
-import FeatureSection from './comp/topSection'
+import TopSection from './comp/topSection' // ✅ Naam sahi kiya (FeatureSection hata diya)
+import AwardsHeader from './comp/awardsHeader'
 
 function App() {
   return (
@@ -9,9 +10,8 @@ function App() {
       <Navbar />
       <Hero />
       <TrustedBy />
-      <TopSection/>
-
-
+      <TopSection />
+      <AwardsHeader/>
     </>
   )
 }
