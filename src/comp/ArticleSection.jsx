@@ -6,7 +6,6 @@ import img3 from '../assets/19.png'
 
 const ArticleSection = () => {
 
-    // Cards ka Data
     const articles = [
         {
             id: 1,
