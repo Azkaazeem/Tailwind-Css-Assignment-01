@@ -11,6 +11,7 @@ import img2 from './assets/8.png';
 import img3 from './assets/9.png';
 import CardHeader from './comp/CardHeader'
 import ArticleSection from './comp/ArticleSection'
+import Footer from './comp/Footer'
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
       />
       <CardHeader/>
       <ArticleSection/>
+      <Footer/>
       
     </>
   )
