@@ -3,7 +3,7 @@ import Hero from './comp/Hero'
 import TrustedBy from './comp/TrustedBy'
 import TopSection from './comp/TopSection' // ✅ Naam sahi kiya (FeatureSection hata diya)
 import AwardsHeader from './comp/AwardsHeader'
-import AwardSection from './comp/awardSection'
+import AwardSection from './comp/AwardSection'
 import FeatureHeader from './comp/FeatureHeader'
 import FeatureSection from './comp/FeatureSection'
 import img1 from './assets/7.png';
