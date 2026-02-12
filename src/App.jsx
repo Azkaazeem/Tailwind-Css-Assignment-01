@@ -1,7 +1,7 @@
 import Navbar from './comp/Navbar'
 import Hero from './comp/Hero'
 import TrustedBy from './comp/TrustedBy'
-import TopSection from './comp/TopSection' // ✅ Naam sahi kiya (FeatureSection hata diya)
+import TopSection from './comp/TopSection'
 import AwardsHeader from './comp/AwardsHeader'
 import AwardSection from './comp/AwardSection'
 import FeatureHeader from './comp/FeatureHeader'
@@ -38,14 +38,14 @@ function App() {
         heading="See how customers drive impact"
         text="I used to have a bunch of different tools I had to pay for, with Circle you get everything in one bundle."
         primaryBtn="See case studies"
-        image={img2} // Woman image
+        image={img2} 
       />
       <FeatureSection
         heading="Looking for a solution for your business?"
         text="Check out Sogolytics enterprise feedback and experience management platform."
         primaryBtn="Learn more"
-        secondaryBtn="Schedule a consultation" // <--- 2nd Button Add ho gya
-        image={img3} // Typing image
+        secondaryBtn="Schedule a consultation"
+        image={img3}
       />
       <CardHeader/>
       <ArticleSection/>

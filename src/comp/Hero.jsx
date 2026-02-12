@@ -1,13 +1,11 @@
 import React from 'react'
 import bgPattern from '../assets/bg.png'
-import heroImage from '../assets/group.png' // Aapki transparent image
+import heroImage from '../assets/group.png'
 
 const Hero = () => {
   return (
-    // overflow-visible: Zaroori hai taake image cut na ho jab wo box se bahar nikle
     <section className="relative bg-cyan-50 pt-16 pb-32 md:pt-28 md:pb-60 overflow-visible">
       
-      {/* === 1. Background Pattern === */}
       <div className="absolute inset-0 overflow-hidden">
         <img 
           src={bgPattern} 
@@ -16,7 +14,6 @@ const Hero = () => {
         />
       </div>
 
-      {/* === 2. Main Text Content === */}
       <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
         
         <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
@@ -35,11 +32,6 @@ const Hero = () => {
 
       </div>
 
-      {/* === 3. Overlapping Hero Image === */}
-      {/* - absolute bottom-0: Image ko cyan box ke bilkul neeche chipkaya.
-         - left-1/2 -translate-x-1/2: Image ko horizontal center kiya.
-         - translate-y-[40%]: Image ko 40% neeche dhakela taake wo overlap kare.
-      */}
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-[40%] z-20 w-[90%] md:w-full max-w-5xl">
         <img 
           src={heroImage} 

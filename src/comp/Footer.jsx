@@ -5,12 +5,9 @@ const Footer = () => {
   return (
     <footer className="bg-[#1f1f1f] text-gray-400">
       <div className="w-full flex justify-center">
-        {/* Top Section */}
         <div className="w-full max-w-[1200px] px-6 py-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 pb-16 text-center sm:text-left">
 
-
-            {/* Left */}
             <div className="grid justify-center">
               <img src={MapImg} alt="Map" className="w-48 mb-4" />
               <p className="text-sm flex items-center gap-1">
@@ -29,7 +26,6 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* Products */}
             <div>
               <h4 className="text-white font-semibold mb-4">Products</h4>
               <ul className="space-y-3 text-sm">
@@ -41,7 +37,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Resources */}
             <div>
               <h4 className="text-white font-semibold mb-4">Resources</h4>
               <ul className="space-y-3 text-sm">
@@ -60,7 +55,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Company */}
             <div>
               <h4 className="text-white font-semibold mb-4">Company</h4>
               <ul className="space-y-3 text-sm">
@@ -73,14 +67,11 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Divider */}
           <div className="border-t border-gray-700 mt-16" />
 
-          {/* Bottom */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 py-6 text-sm">
             <p>Copyright © 2022 Circle. All rights reserved.</p>
 
-            {/* Social */}
             <div className="flex gap-4">
               <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-700 hover:bg-white hover:text-black transition">
                 <FaLinkedinIn />
@@ -90,7 +81,6 @@ const Footer = () => {
               </a>
             </div>
 
-            {/* Links */}
             <div className="flex flex-wrap gap-4 justify-center">
               {["Privacy Policy", "Data & Security", "Terms of Service", "Data & Security"].map(
                 (item, i) => (

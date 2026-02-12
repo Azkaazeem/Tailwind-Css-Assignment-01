@@ -1,18 +1,15 @@
 import React from 'react'
 import ArticleCard from './ArticleCard'
 
-// ✅ Step 1: Images ko yahan import karein
 import img1 from '../assets/17.png'
 import img2 from '../assets/18.png'
 import img3 from '../assets/19.png'
 
 const ArticleSection = () => {
 
-    // Cards ka Data
     const articles = [
         {
-            image: img1, // ✅ Step 2: Import kiya hua variable use karein (String nahi)
-            id: 1,
+            image: img1,
             title: "Excepteur sint occaecat cupidatat non proident",
             desc1: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.",
             desc2: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci veli.",

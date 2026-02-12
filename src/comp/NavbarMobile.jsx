@@ -6,7 +6,6 @@ const NavbarMobile = ({ links, logo }) => {
   return (
     <div className="md:hidden">
       
-      {/* Mobile Header (Logo + Button) */}
       <div className="flex justify-between items-center">
         <img src={logo} alt="Logo" className="h-8" />
         
@@ -17,7 +16,6 @@ const NavbarMobile = ({ links, logo }) => {
         </button>
       </div>
 
-      {/* Dropdown Menu */}
       {isOpen && (
         <div className="flex flex-col items-center gap-6 py-8 mt-4 border-t bg-gray-50 text-gray-600 font-medium animate-fade-in">
           {links.map(link => (

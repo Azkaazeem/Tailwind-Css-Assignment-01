@@ -9,7 +9,7 @@ import award6 from '../assets/16.png'
 
 const AwardSection = () => {
   return (
-    // Changes explained below:
+    
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center mt-20 px-5 max-w-7xl mx-auto'>
         <AwardCard image={award1} heading="Market leader across 18 categories" bgColor="#fff5f8"/>
         <AwardCard image={award2} heading="Most loved SaaS tool in 2021" bgColor="#ffe1ed"/>

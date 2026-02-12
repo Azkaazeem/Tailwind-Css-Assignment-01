@@ -1,6 +1,6 @@
 import React from 'react'
-import FeatureSection from './FeatureSection' // ✅ Sahi Path (Same folder)
-import img from '../assets/10.png'           // ✅ Sahi Path (Ek folder peeche)
+import FeatureSection from './FeatureSection'
+import img from '../assets/10.png'
 
 const TopSection = () => {
   return (

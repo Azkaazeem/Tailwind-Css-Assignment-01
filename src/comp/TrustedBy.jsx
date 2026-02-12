@@ -10,27 +10,22 @@ import logo6 from '../assets/6.png';
 
 const TrustedBy = () => {
   return (
-    // CHANGE: 'pt-16' ko badha kar 'pt-32 md:pt-60' kar diya
-    // Isse text neeche khisak jayega aur image ke liye jagah ban jayegi
     <section className="bg-white w-full pt-32 md:pt-60 pb-16">
       
       <div className="max-w-6xl mx-auto px-6 text-center">
         
-        {/* 1. TOP BADGE */}
         <div className="flex justify-center mb-6">
             <span className="bg-cyan-50 text-cyan-500 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider">
                 Our Customers
             </span>
         </div>
 
-        {/* 2. HEADING */}
         <h2 className="text-3xl md:text-4xl text-gray-900 mb-12">
             Trusted by <span className="font-bold">100,000+ customers</span> in 90+ countries
         </h2>
 
-        {/* 3. LOGOS GRID */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center mb-16 transition-all duration-500">
-            {/* Logos */}
+
             <img src= {logo1} alt="Capgemini" className="h-8 md:h-10 w-auto object-contain" />
             <img src= {logo2} alt="Yamaha" className="h-8 md:h-10 w-auto object-contain" />
             <img src= {logo3} alt="Biocon" className="h-8 md:h-10 w-auto object-contain" />
@@ -39,7 +34,6 @@ const TrustedBy = () => {
             <img src= {logo6} alt="Shell" className="h-8 md:h-10 w-auto object-contain" />
         </div>
 
-        {/* 4. BOTTOM STATS */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-12 text-gray-500 text-sm md:text-base font-medium">
             <StatItem count="18281" text="signed up last month" />
             <StatItem count="GDPR" text="- & CCPA-ready" highlight />
